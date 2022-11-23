@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+}
+nav 
+{ 
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 3em;
+    background-color: lightgoldenrodyellow;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: o 2em;
+    float: left;
+
+}
+
+nav ul li:first-child {float: right}
