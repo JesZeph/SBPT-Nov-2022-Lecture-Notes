@@ -1,0 +1,88 @@
+body {
+    background-color: lightslategray;
+}
+
+.sample {
+    height: 50px;
+    border: solid black 1px;
+    background-color: darkorange;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+#block-sample {
+ display: block;
+    }
+
+#inline-sample {
+    display: inline;
+}
+
+#none-sample {
+    display: none;
+}
+
+.block-elements > * {
+    border: 1px solid blue;
+}
+/* The asterix is the Universal Selector */
+
+.inline-elements > * {
+    border: 1px dashed red;
+}
+
+#relative-sample  {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background-color: green;
+
+}
+#absolute-sample  {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: blue;
+
+}
+
+#fixed-sample  {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    left: 100px;
+    background-color: red;
+
+}
+
+#static-sample  {
+    height: 50px;
+    width: 50px;
+    position: static;
+
+    /* 
+    This following two lines were from eric's lecture notes, as a comment: 
+    bottom: 20px;
+    left: 100px; 
+    */ 
+
+
+/* 
+    These two lines were mine:
+    top: 20px;
+    right: 30px;    
+*/
+    background-color: black;
+
+}
+#for-spacing {
+    height: 100vh;
+
+}
+
