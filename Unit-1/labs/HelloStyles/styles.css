@@ -1,0 +1,54 @@
+
+
+
+body {
+    background-color:rgb(100,150,183)"
+}
+
+header {    
+    color: rgb(37, 41, 103);
+    text-align: center;
+    background-color: rgb(71, 212, 165);
+    height: 50px;
+    margin-top: 50px; 
+}
+
+
+
+<style>
+.button {
+    background-color: rgb(135, 218, 18);
+    border-style: dotted;
+    border-color: rgb(12, 145, 32);
+    padding: 20px 30px;
+    display: inline-block;
+    margin: 13px 13px;
+    }
+    
+
+
+    figcaption {
+padding-bottom: .20em;
+    }
+
+    nav {
+    padding-top: 2em;  
+    padding-bottom: 2em;
+    }
+
+    
+</style>
+
+img style="width: 270px; border-style: dotted; color: rgb(211, 24, 24);"
+
+
+<nav>
+
+        <a href = "/2HelloAbout.html" class="button">... and here's the MOST Awesome cat: &#128062;&rarr;</a>
+        <a href = "/3rdHello.html" class="button">and here's the greatest dog EVER: &#128062;&#128062;&rarr;</a>
+        <a href = "/4thHello.html" class="button">and here's the MOST Wonderful dog: &#128062;&#128062;&#128062;&rarr; </a>
+    
+    </nav>
+
+    section style="background-color:rgb(5, 118, 153)">
+
