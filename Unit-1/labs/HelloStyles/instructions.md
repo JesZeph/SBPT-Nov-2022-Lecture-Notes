@@ -49,10 +49,27 @@ Opening the wireframe
 Understanding the wireframe
 
  This wireframe has areas that correspond to the semantic divs you already have from Hello Html.
+
  <header> matches the HEADER TEXT areas.
+
  <nav> matches the LINK areas that contain four links.
+
  The white boxes with black diagonal lines should be placeholder images utilizing the <img> tag.
+ 
  <main> matches the MAIN TEXT areas. You will note that on the ABOUT PAGE, there are two MAIN TEXT areas with space between them. This is intentional.
+
+
+
+
+
+    padding: 60px;
+    text-align: center;
+    background-color: rgb(71, 212, 165);
+    color: rgb(37, 41, 103);
+    height: 80px;
+    width: 800px;
+    margin: 50px 300px; 
+
 
 Styling the divs
  You will need to utilize CSS selectors in order to style your divs. id and class are the most common utilized.

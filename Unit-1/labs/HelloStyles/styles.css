@@ -1,54 +1,46 @@
 
-
-
-body {
-    background-color:rgb(100,150,183)"
-}
-
-header {    
-    color: rgb(37, 41, 103);
+#header{   
+    padding: 10px;
     text-align: center;
-    background-color: rgb(71, 212, 165);
-    height: 50px;
-    margin-top: 50px; 
+    color: rgb(49, 49, 233);
+    background: #1abc9c;
+    margin: auto 200px;
+    border-style: dotted; border-width: 4px; border-color: rgb(211, 24, 24)
 }
 
+#section{
+    font-size: 20px;
+    padding: 80px;
+}
 
+.backdrop{
+        background-color: rgb(135, 218, 18);
+        border-style: dotted;
+        border-color: rgb(145, 12, 14);
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px; 
+}
 
-<style>
-.button {
-    background-color: rgb(135, 218, 18);
-    border-style: dotted;
-    border-color: rgb(12, 145, 32);
-    padding: 20px 30px;
-    display: inline-block;
-    margin: 13px 13px;
-    }
-    
+    .button{
+        background-color: rgb(135, 218, 18); 
+        border-style: dotted;
+        border-color: rgb(12, 145, 32);
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;
+        margin: 20px;
+    }   
 
+    a{text-decoration:none;}
 
-    figcaption {
-padding-bottom: .20em;
-    }
+body{
+    background-color:rgb(100,150,183);
+    font-family: arial;
+    color: black;
+    margin: 40px;width: 1000px;
+    padding: 20px; 
+}
 
-    nav {
-    padding-top: 2em;  
-    padding-bottom: 2em;
-    }
-
-    
-</style>
-
-img style="width: 270px; border-style: dotted; color: rgb(211, 24, 24);"
-
-
-<nav>
-
-        <a href = "/2HelloAbout.html" class="button">... and here's the MOST Awesome cat: &#128062;&rarr;</a>
-        <a href = "/3rdHello.html" class="button">and here's the greatest dog EVER: &#128062;&#128062;&rarr;</a>
-        <a href = "/4thHello.html" class="button">and here's the MOST Wonderful dog: &#128062;&#128062;&#128062;&rarr; </a>
-    
-    </nav>
-
-    section style="background-color:rgb(5, 118, 153)">
-
+img { border-style: dotted; border-width: 3px; color: rgb(211, 24, 24);width: 500px;}
+figcaption {padding: 20px; color: rgb(49, 49, 233)}
