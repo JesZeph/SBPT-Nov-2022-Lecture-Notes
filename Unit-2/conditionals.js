@@ -176,8 +176,6 @@ if(newNum > 0) {
     console.log('no');
 }
 
-
-
 //* Else/If
 if(newNum == 0) {
     console.log('Hello');
@@ -186,6 +184,8 @@ if(newNum == 0) {
 } else {
     console.log('goodbye');
 }
+
+(newNum == 0) ? console.log('Hello') : (newNum < 0) ? console.log('hi') : console.log('goodbye again');
 
 (newNum == 0) ? 
     console.log('Hello') : 
