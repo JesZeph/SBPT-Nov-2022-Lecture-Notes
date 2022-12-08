@@ -170,3 +170,72 @@ Structure:
 //     mon = 'new value in monday'
 // console.log(mon);
 
+
+//! Arrow Functions
+/* 
+    Structure:
+        1         2
+    let hi = () => {
+        console.log('hi)
+    }
+
+1. We need to set the arrow function to a variable
+2. We use the 'fat arrow' to signify it's a function.
+
+- introduced in ES6. They are basically just a more concise way to write functional expressions - NOT declarations.
+
+    ! Do NOT get hoisted!    Two different styles:
+        - Concise Body
+        - Block Body
+*/
+
+//* Concise Body
+ 
+let goodbye = () => console.log('goodbye');
+goodbye();
+
+let total = () => 2+2;
+let isFour = total();
+console.log(isFour);
+
+//* Block Body
+let apples = qty => {
+    return `There are ${qty} apples.`
+};
+
+let appleCount = apples(4);
+console.log(appleCount);
+
+
+//* 
+
+//? same function above as concise body
+let apples2 = qty => `There are ${qty} apples`;
+let newAppleCount = apples2(isFour);
+console.log(newAppleCount);
+
+//*
+//? Multiple params
+let calc = (x,y) => x + y;
+console.log(calc(3,4));
+
+//* IIFE
+/* 
+    - Immediately Invoked Function Expression
+    - Helps allocating space in memory for anonymous functions
+    - fires our function as soon as it is read.
+*/
+
+(function() {
+    console.log('IIFE fired')
+})();
+
+
+/*
+    Make a tip calculator using a function
+    Have it RETURN the value
+    Capture that returned value in a VARIABLE
+    Print that variable
+*/
+
+
