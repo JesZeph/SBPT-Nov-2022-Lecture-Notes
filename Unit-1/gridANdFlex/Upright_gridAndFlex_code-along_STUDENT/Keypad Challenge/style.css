@@ -3,17 +3,22 @@
 
 #keypad {
     display: grid;
-    grid-template-rows: 100px 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px;
-
+    grid-template-rows: repeat (4, 100px);
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
 }
+
 
 .key {
-    background-color: orange;
-    border: solid black 3px;
-    padding: 30px;
-    font-size: xx-large;
+    background-color: slategray;
+    border: solid black 1px; 
     text-align: center;
+    font-size: xx-large;
+    font-family: Arial;
     color: white;
+    padding: 30px;
+} 
 
-}
+
