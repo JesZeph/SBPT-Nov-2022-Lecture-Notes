@@ -38,7 +38,7 @@
 #grid-sidebar {
     grid-column-start: 1;
     grid-column-end: span 2;
-    grid-column-start: 2;
+    grid-row-start: 2;
     grid-column-end: span 2;
 
     /*  -will start in column 1 and only cover 2 columns.
