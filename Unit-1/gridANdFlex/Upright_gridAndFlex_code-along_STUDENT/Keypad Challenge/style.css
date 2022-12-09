@@ -1,2 +1,19 @@
 
-   
+
+
+#keypad {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+
+}
+
+.key {
+    background-color: orange;
+    border: solid black 3px;
+    padding: 30px;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+
+}
