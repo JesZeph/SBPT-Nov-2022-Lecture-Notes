@@ -1,21 +1,77 @@
+
+
+
 html, body {
     margin: 0;
 }
-nav 
-{ 
+
+
+nav {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 3em;
-    background-color: lightgoldenrodyellow;
+    height: 4em;
+    background-color: yellow;
 }
+
 
 nav ul li {
+    font-size: x-large;
+    font-family: Arial;
     list-style: none;
     display: inline;
-    margin: o 2em;
+    margin-inline: 100px; 
     float: left;
-
 }
 
+
 nav ul li:first-child {float: right}
+
+.Rocky {
+    background-color: sandybrown;
+}
+
+#about {
+    color: black;
+    font-size: 120px;  
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 150vh;
+}
+
+.Artemis {
+    background-color: rgb(40, 185, 35);
+}
+
+#Artemis {
+    color: black;
+    font-size: 400px;
+    font-stretch: narrower;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 100vh;
+    
+}
+
+.Dogma {
+    background-color: rgb(0, 0, 255);
+}
+
+#ShopDrop {
+    vertical-align: 50%;
+    height: 100vh;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+
+}
