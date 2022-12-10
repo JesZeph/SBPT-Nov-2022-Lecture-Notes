@@ -22,74 +22,110 @@
             * emmet typing shortcut sample: 
             .className#id-name       ->  <div class="className" id="id-name"></div>
     -->
-    <h1></h1>
-    <div class="sample" id="block-sample"><strong><h1>This is the cssLayout Lab</h1></strong></div>
+
+
+
+    <!-- <h1></h1> -->
+
+
+
+
+    <div class="sample" id="block-sample"></div>
+        <!-- <strong><h1>This is the cssLayout Lab</h1></strong></div> -->
+
     <div class="sample" id="inline-sample">Width of Content</div>
+
     <div class="sample" id="none-sample"></div>
 
 
-    <hr> 
-<!-- <hr> is horizontal break -->
+<hr> 
+
+<!-- <hr>  is horizontal break -->
 
     <h1>Block Element Examples</h1>
+
     <div class="block-elements">
+
         <div>Divs & h1-h6</div>
 
         <table>
-            <!-- Tables -->
-            <tr>
-                <td>One</td>
-            </tr>
+            <!-- here, the word 'Tables" is commented out' -->
+        <tr>
+            <td>One</td>
+        </tr>
+
         </table>
 
         <form>
-        Forms
+            Forms
         </form>
 
-    <ul>
-        <li>Unordered Lists</li>
-    </ul>   
+        <ul>
+            <li>Unordered Lists</li>
+        </ul>
 
-    <ol>
-        <li>Ordered Lists</li>
-    </ol>
+        <ol>
+            <li>Ordered lists</li>
+        </ol>
 
-    <nav>Nav Element</nav>
-<!-- there's a </div> here; figure it out: Answer, closing div from class="block-elements"> [line 35];  FIX THE RAINBOW INSETS - EASIER TO FIGURE OUT CLOSING ELEMENTS ETC-->
-</div>
-
-<h1>Inline Element Examples</h1>
-<div class="inline-elements">
-    <span>Span</span>
-    <a href="anchor tags"></a>
-    <i>italics</i>
-    <em>emphasis</em>
-    <b>bold</b>
-    <strong>strong</strong>
-    <img src="" alt="">
-    <button>Buttons</button>
-</div>
-
-<hr>
-
-    <div class="sample">
-        <div id="relative-sample"></div>
-        <div id="absolute-sample"></div>
-        <div id="fixed-sample"></div>
-        <div id="static-sample"></div>
+        <nav>Nav Element</nav>
 
     </div>
 
-    
+
+<h1>Inline Element Examples</h1>
+
+<div class="inline-elements">
+
+    <span>Span</span>
+
+    <a href="#">anchor tags</a>
+
+    <i>italics</i>
+
+    <em>emphasis</em>
+
+    <b>bold</b>
+
+    <strong>strong</strong>
+
+    <img src="#" alt="#">
+
+    <button>Buttons</button>
+
+</div> 
+
+<hr>
+
+<div class="sample">
+
+    <div id="relative-sample"></div>
+    <!-- can be moved, relative to the overall doc, using elements: for example by using 'top' 'bottom' 'left' etc-->
+
+    <div id="absolute-sample"></div>
+    <!--  look at the css notes -->
+
+    <div id="fixed-sample"></div>
+    <!-- fixed to the page/stuck on the page/ ...governed by the browser -->
+
+    <div id="static-sample"></div>
+    <!--  is like the 'relative-sample', except it cannot be moved around [ w/properties like 'top' 'left' 'right'[see the css] etc] -->
+
+</div> 
+
+<div id="for-spacing"></div>  
+
+</body>
+
+</html> 
+
 <!-- 
     "position: relative" mean "my children are positioned relative to ME"
     "position: absolute" means "I am positioned relative to my parent" 
 -->
 
-    <div id="for-spacing"></div>
+
+<!-- 
+    measurement styles: px em; rem; points; %; -->
 
 
-
-
-</body>
-</html>

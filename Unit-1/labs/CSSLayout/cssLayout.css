@@ -7,12 +7,14 @@ body {
     border: solid black 1px;
     background-color: darkorange;
     margin: 10px;
-    text-align: center;
+
+
+    /* text-align: center; */
     
 }
 
 #block-sample {
- display: block;
+display: block;
     }
 
 #inline-sample {
@@ -25,30 +27,38 @@ body {
 
 .block-elements > * {
     border: 1px solid blue;
-}
+} 
 /* The asterix is the Universal Selector */
 
-.inline-elements > * {
+ .inline-elements > * {
     border: 1px dashed red;
 }
+
 
 #relative-sample  {
     height: 50px;
     width: 50px;
     position: relative;
+    /* where are we starting the relative position from?  */
     top: 20px;
+    /* relative to the preceding div; in this case, the '<div class="sample">'; line 103 of the html */
     left: 10px;
     background-color: green;
-
 }
+
+/* OPTION-SHIFT-down arrow  ---   will duplicate and paste the next row down [or up arrow] */
+
+
+
 #absolute-sample  {
     height: 50px;
     width: 50px;
     position: absolute;
+    /* relative to it's parent/ancestor */
     top: 20px;
+    /* So the 'absolute' designation refers to the section [html] that follows [come after/or really, came before] the section that the 'relative' designation uses. Like the grandparent div. In this case, the absolute will use/target the '<body>' element.  */
     right: 30px;
     background-color: blue;
-
 }
 
 #fixed-sample  {
@@ -65,24 +75,14 @@ body {
     height: 50px;
     width: 50px;
     position: static;
-
     /* 
-    This following two lines were from eric's lecture notes, as a comment: 
     bottom: 20px;
-    left: 100px; 
-    */ 
-
-
-/* 
-    These two lines were mine:
-    top: 20px;
-    right: 30px;    
-*/
+    left: 100px;  
+    take out these two, and nothing happens
+    */
     background-color: black;
-
 }
+
 #for-spacing {
     height: 100vh;
-
-}
-
+} 
